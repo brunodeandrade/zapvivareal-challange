@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pXX-sk-LPi">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Top Games View Controller-->
+        <scene sceneID="iqP-uK-Obo">
+            <objects>
+                <collectionViewController restorationIdentifier="gameViewController" id="eFA-vp-La5" customClass="TopGamesViewController" customModule="Teste_Zap_Viva_Real" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="naT-AX-ntd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="nbq-f6-AKL">
+                            <size key="itemSize" width="200" height="200"/>
+                            <size key="headerReferenceSize" width="50" height="56"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="gameCell" reuseIdentifier="gameCell" id="kHs-PL-hjh" customClass="TopGamesCollectionViewCell" customModule="Teste_Zap_Viva_Real" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="56" width="177" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="177" height="200"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gk4-D7-EkM">
+                                            <rect key="frame" x="9" y="162" width="162" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="geC-bm-0o9">
+                                            <rect key="frame" x="7" y="15" width="163" height="131"/>
+                                        </imageView>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="geC-bm-0o9" firstAttribute="leading" secondItem="kHs-PL-hjh" secondAttribute="leading" constant="7" id="04J-ny-Wn9"/>
+                                    <constraint firstAttribute="trailing" secondItem="Gk4-D7-EkM" secondAttribute="trailing" constant="6" id="2j7-Md-phh"/>
+                                    <constraint firstItem="Gk4-D7-EkM" firstAttribute="leading" secondItem="kHs-PL-hjh" secondAttribute="leading" constant="9" id="KM6-7C-vnd"/>
+                                    <constraint firstAttribute="bottom" secondItem="Gk4-D7-EkM" secondAttribute="bottom" constant="20" id="USZ-kZ-cHA"/>
+                                    <constraint firstAttribute="trailing" secondItem="geC-bm-0o9" secondAttribute="trailing" constant="7" id="cMj-oh-LuR"/>
+                                    <constraint firstItem="Gk4-D7-EkM" firstAttribute="top" secondItem="geC-bm-0o9" secondAttribute="bottom" constant="16" id="fO4-0Y-bua"/>
+                                    <constraint firstItem="geC-bm-0o9" firstAttribute="top" secondItem="kHs-PL-hjh" secondAttribute="top" constant="15" id="mno-yt-lOD"/>
+                                </constraints>
+                                <size key="customSize" width="177" height="200"/>
+                                <connections>
+                                    <outlet property="gameLogoView" destination="geC-bm-0o9" id="rvO-ck-nqf"/>
+                                    <outlet property="gameNameLabel" destination="Gk4-D7-EkM" id="fpw-XC-3xk"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="G8K-kF-3Kw">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </collectionReusableView>
+                        <connections>
+                            <outlet property="dataSource" destination="eFA-vp-La5" id="znt-mu-i7k"/>
+                            <outlet property="delegate" destination="eFA-vp-La5" id="fan-oK-Ee7"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="Sqh-gR-qb2">
+                        <nil key="title"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="Syv-eC-h3i" id="uhE-dF-fPI"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y5o-al-sYM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="Syv-eC-h3i">
+                    <connections>
+                        <outlet property="delegate" destination="eFA-vp-La5" id="W4k-Ke-6lu"/>
+                        <outlet property="searchContentsController" destination="eFA-vp-La5" id="g2Z-YJ-8Xg"/>
+                        <outlet property="searchResultsDataSource" destination="eFA-vp-La5" id="Kjd-rc-gSu"/>
+                        <outlet property="searchResultsDelegate" destination="eFA-vp-La5" id="94H-ca-0Vb"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="639.20000000000005" y="124.58770614692655"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="yy6-80-uoJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pXX-sk-LPi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dEF-Rc-Lse">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="eFA-vp-La5" kind="relationship" relationship="rootViewController" id="eVR-ra-MBM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sDe-5F-ZHJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-172" y="125"/>
+        </scene>
+    </scenes>
+</document>

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D88D0429EAAE86CCC619784 /* Pods_Teste_Zap_Viva_RealUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD723DAB4FE08F7A895B16C /* Pods_Teste_Zap_Viva_RealUITests.framework */; };
+		5136E4DC20339DFF0025DC91 /* CustomIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136E4DB20339DFE0025DC91 /* CustomIndicatorView.swift */; };
+		5136E4E22033A4120025DC91 /* NVActivityIndicatorView in Resources */ = {isa = PBXBuildFile; fileRef = 5136E4E12033A4120025DC91 /* NVActivityIndicatorView */; };
+		5136E4E32033A4120025DC91 /* NVActivityIndicatorView in Resources */ = {isa = PBXBuildFile; fileRef = 5136E4E12033A4120025DC91 /* NVActivityIndicatorView */; };
+		5136E4E42033A4480025DC91 /* CustomIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5136E4DB20339DFE0025DC91 /* CustomIndicatorView.swift */; };
 		5137E5BD2031EF690071206E /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5137E5BC2031EF690071206E /* RequestService.swift */; };
 		5137E5BF20320BEE0071206E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5137E5BE20320BEE0071206E /* Game.swift */; };
 		5137E5C12032119D0071206E /* GameApiParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5137E5C02032119D0071206E /* GameApiParser.swift */; };
@@ -25,6 +30,14 @@
 		51A95D182031DF5600C1F8B0 /* Teste_Zap_Viva_RealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A95D172031DF5600C1F8B0 /* Teste_Zap_Viva_RealUITests.swift */; };
 		51A95D292031E27200C1F8B0 /* TopGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A95D282031E27200C1F8B0 /* TopGamesViewController.swift */; };
 		51A95D2A2031E27200C1F8B0 /* TopGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A95D282031E27200C1F8B0 /* TopGamesViewController.swift */; };
+		51BD83182033E3D5008B654D /* UITabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BD83172033E3D5008B654D /* UITabBarViewController.swift */; };
+		51BD831B2034DD2D008B654D /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BD831A2034DD2D008B654D /* DataBaseManager.swift */; };
+		51BD831C2034DD83008B654D /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BD831A2034DD2D008B654D /* DataBaseManager.swift */; };
+		51BD831D2034DDD6008B654D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A95CF42031DF5600C1F8B0 /* AppDelegate.swift */; };
+		51C6B0A320333EF3000E7919 /* TopGamesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C6B0A220333EF3000E7919 /* TopGamesDetailViewController.swift */; };
+		51C6B0A4203358A1000E7919 /* TopGamesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C6B0A220333EF3000E7919 /* TopGamesDetailViewController.swift */; };
+		E7AC5B447911FDDD5B6D5085 /* Pods_Teste_Zap_Viva_Real.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC364A757522BDDB6A2F4E94 /* Pods_Teste_Zap_Viva_Real.framework */; };
+		FF222CA344EA2FE09C83D06E /* Pods_Teste_Zap_Viva_RealTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96848A4C05B6B5A87B9247FB /* Pods_Teste_Zap_Viva_RealTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +58,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40D611D5166FB020A4B0B94F /* Pods-Teste Zap Viva RealUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste Zap Viva RealUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Teste Zap Viva RealUITests/Pods-Teste Zap Viva RealUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4DF9D4AD5858287374F960A8 /* Pods-Teste Zap Viva Real.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste Zap Viva Real.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Teste Zap Viva Real/Pods-Teste Zap Viva Real.debug.xcconfig"; sourceTree = "<group>"; };
+		5136E4DB20339DFE0025DC91 /* CustomIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIndicatorView.swift; sourceTree = "<group>"; };
+		5136E4E12033A4120025DC91 /* NVActivityIndicatorView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = NVActivityIndicatorView; sourceTree = "<group>"; };
 		5137E5BC2031EF690071206E /* RequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
 		5137E5BE20320BEE0071206E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		5137E5C02032119D0071206E /* GameApiParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameApiParser.swift; sourceTree = "<group>"; };
@@ -63,6 +80,16 @@
 		51A95D172031DF5600C1F8B0 /* Teste_Zap_Viva_RealUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teste_Zap_Viva_RealUITests.swift; sourceTree = "<group>"; };
 		51A95D192031DF5600C1F8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51A95D282031E27200C1F8B0 /* TopGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGamesViewController.swift; sourceTree = "<group>"; };
+		51BD83172033E3D5008B654D /* UITabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarViewController.swift; sourceTree = "<group>"; };
+		51BD831A2034DD2D008B654D /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		51C6B0A220333EF3000E7919 /* TopGamesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGamesDetailViewController.swift; sourceTree = "<group>"; };
+		554F8A1D73B8B6428AF77BC3 /* Pods-Teste Zap Viva RealTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste Zap Viva RealTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Teste Zap Viva RealTests/Pods-Teste Zap Viva RealTests.debug.xcconfig"; sourceTree = "<group>"; };
+		88AEA176CDF43F8A8042A58F /* Pods-Teste Zap Viva RealTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste Zap Viva RealTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Teste Zap Viva RealTests/Pods-Teste Zap Viva RealTests.release.xcconfig"; sourceTree = "<group>"; };
+		96848A4C05B6B5A87B9247FB /* Pods_Teste_Zap_Viva_RealTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teste_Zap_Viva_RealTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5682CA6AEA53759610FF18 /* Pods-Teste Zap Viva RealUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste Zap Viva RealUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Teste Zap Viva RealUITests/Pods-Teste Zap Viva RealUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDD723DAB4FE08F7A895B16C /* Pods_Teste_Zap_Viva_RealUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teste_Zap_Viva_RealUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89831085BDCCF5761BB2017 /* Pods-Teste Zap Viva Real.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste Zap Viva Real.release.xcconfig"; path = "Pods/Target Support Files/Pods-Teste Zap Viva Real/Pods-Teste Zap Viva Real.release.xcconfig"; sourceTree = "<group>"; };
+		FC364A757522BDDB6A2F4E94 /* Pods_Teste_Zap_Viva_Real.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teste_Zap_Viva_Real.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7AC5B447911FDDD5B6D5085 /* Pods_Teste_Zap_Viva_Real.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF222CA344EA2FE09C83D06E /* Pods_Teste_Zap_Viva_RealTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +113,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D88D0429EAAE86CCC619784 /* Pods_Teste_Zap_Viva_RealUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5136E4DE2033A22C0025DC91 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				5136E4E12033A4120025DC91 /* NVActivityIndicatorView */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
 		5137E5BB2031EEF60071206E /* Networking */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +144,8 @@
 				51A95D0B2031DF5600C1F8B0 /* Teste Zap Viva RealTests */,
 				51A95D162031DF5600C1F8B0 /* Teste Zap Viva RealUITests */,
 				51A95CF22031DF5600C1F8B0 /* Products */,
+				B8E3532BFC37CD2CF824C47D /* Pods */,
+				E9663EBBF550AEFDC43DBB55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,15 +162,15 @@
 		51A95CF32031DF5600C1F8B0 /* Teste Zap Viva Real */ = {
 			isa = PBXGroup;
 			children = (
+				51BD83192034DCEF008B654D /* Core Data */,
+				5136E4DE2033A22C0025DC91 /* Libraries */,
 				5137E5BB2031EEF60071206E /* Networking */,
 				51A95D272031E21800C1F8B0 /* Model */,
-				51A95D262031E21400C1F8B0 /* ViewModel */,
 				51A95D252031E20E00C1F8B0 /* View */,
 				51A95CF42031DF5600C1F8B0 /* AppDelegate.swift */,
 				51A95CFE2031DF5600C1F8B0 /* Assets.xcassets */,
 				51A95D002031DF5600C1F8B0 /* LaunchScreen.storyboard */,
 				51A95D032031DF5600C1F8B0 /* Info.plist */,
-				51A95CFB2031DF5600C1F8B0 /* Teste_Zap_Viva_Real.xcdatamodeld */,
 			);
 			path = "Teste Zap Viva Real";
 			sourceTree = "<group>";
@@ -159,15 +199,11 @@
 				51A95CF82031DF5600C1F8B0 /* Main.storyboard */,
 				51A95D282031E27200C1F8B0 /* TopGamesViewController.swift */,
 				5137E5CA20322E280071206E /* TopGamesCollectionViewCell.swift */,
+				51C6B0A220333EF3000E7919 /* TopGamesDetailViewController.swift */,
+				5136E4DB20339DFE0025DC91 /* CustomIndicatorView.swift */,
+				51BD83172033E3D5008B654D /* UITabBarViewController.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		51A95D262031E21400C1F8B0 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		51A95D272031E21800C1F8B0 /* Model */ = {
@@ -178,6 +214,38 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		51BD83192034DCEF008B654D /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				51A95CFB2031DF5600C1F8B0 /* Teste_Zap_Viva_Real.xcdatamodeld */,
+				51BD831A2034DD2D008B654D /* DataBaseManager.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		B8E3532BFC37CD2CF824C47D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DF9D4AD5858287374F960A8 /* Pods-Teste Zap Viva Real.debug.xcconfig */,
+				E89831085BDCCF5761BB2017 /* Pods-Teste Zap Viva Real.release.xcconfig */,
+				554F8A1D73B8B6428AF77BC3 /* Pods-Teste Zap Viva RealTests.debug.xcconfig */,
+				88AEA176CDF43F8A8042A58F /* Pods-Teste Zap Viva RealTests.release.xcconfig */,
+				AA5682CA6AEA53759610FF18 /* Pods-Teste Zap Viva RealUITests.debug.xcconfig */,
+				40D611D5166FB020A4B0B94F /* Pods-Teste Zap Viva RealUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9663EBBF550AEFDC43DBB55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC364A757522BDDB6A2F4E94 /* Pods_Teste_Zap_Viva_Real.framework */,
+				96848A4C05B6B5A87B9247FB /* Pods_Teste_Zap_Viva_RealTests.framework */,
+				BDD723DAB4FE08F7A895B16C /* Pods_Teste_Zap_Viva_RealUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51A95D1C2031DF5600C1F8B0 /* Build configuration list for PBXNativeTarget "Teste Zap Viva Real" */;
 			buildPhases = (
+				1EE782E2C51E132BF40F127D /* [CP] Check Pods Manifest.lock */,
 				51A95CED2031DF5600C1F8B0 /* Sources */,
 				51A95CEE2031DF5600C1F8B0 /* Frameworks */,
 				51A95CEF2031DF5600C1F8B0 /* Resources */,
+				FDF6CFEEC9B5C1025528A513 /* [CP] Embed Pods Frameworks */,
+				5E4DCFE1BF81F3A04567D2AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,9 +273,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51A95D1F2031DF5600C1F8B0 /* Build configuration list for PBXNativeTarget "Teste Zap Viva RealTests" */;
 			buildPhases = (
+				A82681A271B346F621B48A22 /* [CP] Check Pods Manifest.lock */,
 				51A95D042031DF5600C1F8B0 /* Sources */,
 				51A95D052031DF5600C1F8B0 /* Frameworks */,
 				51A95D062031DF5600C1F8B0 /* Resources */,
+				9ED4842F25A9A359641747ED /* [CP] Embed Pods Frameworks */,
+				CA31C527F7E6D8C795F42C9A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,9 +294,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51A95D222031DF5600C1F8B0 /* Build configuration list for PBXNativeTarget "Teste Zap Viva RealUITests" */;
 			buildPhases = (
+				1659565C9332C38D4F43E5CB /* [CP] Check Pods Manifest.lock */,
 				51A95D0F2031DF5600C1F8B0 /* Sources */,
 				51A95D102031DF5600C1F8B0 /* Frameworks */,
 				51A95D112031DF5600C1F8B0 /* Resources */,
+				C4F5FCB02F30EDEADCF0F53A /* [CP] Embed Pods Frameworks */,
+				E86B22F6FB9F2E955FF1E98C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -285,6 +362,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5136E4E22033A4120025DC91 /* NVActivityIndicatorView in Resources */,
 				51A95D022031DF5600C1F8B0 /* LaunchScreen.storyboard in Resources */,
 				51A95CFF2031DF5600C1F8B0 /* Assets.xcassets in Resources */,
 				51A95CFA2031DF5600C1F8B0 /* Main.storyboard in Resources */,
@@ -295,6 +373,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5136E4E32033A4120025DC91 /* NVActivityIndicatorView in Resources */,
 				5137E5C5203214060071206E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +387,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1659565C9332C38D4F43E5CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Teste Zap Viva RealUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EE782E2C51E132BF40F127D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Teste Zap Viva Real-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E4DCFE1BF81F3A04567D2AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Teste Zap Viva Real/Pods-Teste Zap Viva Real-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ED4842F25A9A359641747ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Teste Zap Viva RealTests/Pods-Teste Zap Viva RealTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A82681A271B346F621B48A22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Teste Zap Viva RealTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4F5FCB02F30EDEADCF0F53A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Teste Zap Viva RealUITests/Pods-Teste Zap Viva RealUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA31C527F7E6D8C795F42C9A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Teste Zap Viva RealTests/Pods-Teste Zap Viva RealTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E86B22F6FB9F2E955FF1E98C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Teste Zap Viva RealUITests/Pods-Teste Zap Viva RealUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF6CFEEC9B5C1025528A513 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Teste Zap Viva Real/Pods-Teste Zap Viva Real-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Teste Zap Viva Real/Pods-Teste Zap Viva Real-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51A95CED2031DF5600C1F8B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -316,10 +545,14 @@
 				51A95CF52031DF5600C1F8B0 /* AppDelegate.swift in Sources */,
 				5137E5BF20320BEE0071206E /* Game.swift in Sources */,
 				5137E5BD2031EF690071206E /* RequestService.swift in Sources */,
+				51C6B0A320333EF3000E7919 /* TopGamesDetailViewController.swift in Sources */,
 				5137E5C12032119D0071206E /* GameApiParser.swift in Sources */,
 				51A95CFD2031DF5600C1F8B0 /* Teste_Zap_Viva_Real.xcdatamodeld in Sources */,
+				51BD83182033E3D5008B654D /* UITabBarViewController.swift in Sources */,
 				5137E5CB20322E280071206E /* TopGamesCollectionViewCell.swift in Sources */,
 				51A95D292031E27200C1F8B0 /* TopGamesViewController.swift in Sources */,
+				5136E4DC20339DFF0025DC91 /* CustomIndicatorView.swift in Sources */,
+				51BD831B2034DD2D008B654D /* DataBaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,11 +561,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				51A95D2A2031E27200C1F8B0 /* TopGamesViewController.swift in Sources */,
+				51BD831C2034DD83008B654D /* DataBaseManager.swift in Sources */,
 				5137E5C4203213FE0071206E /* Game.swift in Sources */,
+				51C6B0A4203358A1000E7919 /* TopGamesDetailViewController.swift in Sources */,
 				5137E5C2203213F80071206E /* RequestService.swift in Sources */,
 				51A95D0D2031DF5600C1F8B0 /* Teste_Zap_Viva_RealTests.swift in Sources */,
 				5137E5CC20322EC70071206E /* TopGamesCollectionViewCell.swift in Sources */,
 				5137E5C3203213FB0071206E /* GameApiParser.swift in Sources */,
+				51BD831D2034DDD6008B654D /* AppDelegate.swift in Sources */,
+				5136E4E42033A4480025DC91 /* CustomIndicatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +725,7 @@
 		};
 		51A95D1D2031DF5600C1F8B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF9D4AD5858287374F960A8 /* Pods-Teste Zap Viva Real.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +741,7 @@
 		};
 		51A95D1E2031DF5600C1F8B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89831085BDCCF5761BB2017 /* Pods-Teste Zap Viva Real.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -518,6 +757,7 @@
 		};
 		51A95D202031DF5600C1F8B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 554F8A1D73B8B6428AF77BC3 /* Pods-Teste Zap Viva RealTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -535,6 +775,7 @@
 		};
 		51A95D212031DF5600C1F8B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88AEA176CDF43F8A8042A58F /* Pods-Teste Zap Viva RealTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -552,6 +793,7 @@
 		};
 		51A95D232031DF5600C1F8B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA5682CA6AEA53759610FF18 /* Pods-Teste Zap Viva RealUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -568,6 +810,7 @@
 		};
 		51A95D242031DF5600C1F8B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D611D5166FB020A4B0B94F /* Pods-Teste Zap Viva RealUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

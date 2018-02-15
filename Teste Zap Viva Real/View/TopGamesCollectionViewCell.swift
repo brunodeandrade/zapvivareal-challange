@@ -10,6 +10,24 @@ import UIKit
 
 class TopGamesCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var starIconButton: UIButton!
     @IBOutlet weak var gameNameLabel: UILabel!
     @IBOutlet weak var gameLogoView: UIImageView!
+    var isBookmarked: Bool = false
+    var game: Game?
+
+
+    @IBAction func didPressStarButton(_ sender: Any) {
+        if !isBookmarked {
+            starIconButton.setBackgroundImage(UIImage(named:"black_star"), for: .normal)
+            isBookmarked = true
+            
+            DataBaseManager.saveFavorite(gameObject: self.game!)
+        }
+        else {
+            starIconButton.setBackgroundImage(UIImage(named:"star_border_black"), for: .normal)
+            isBookmarked = false
+        }
+    }
+    
 }

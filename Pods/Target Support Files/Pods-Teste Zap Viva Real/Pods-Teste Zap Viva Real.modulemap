@@ -1,0 +1,6 @@
+framework module Pods_Teste_Zap_Viva_Real {
+  umbrella header "Pods-Teste Zap Viva Real-umbrella.h"
+
+  export *
+  module * { export * }
+}

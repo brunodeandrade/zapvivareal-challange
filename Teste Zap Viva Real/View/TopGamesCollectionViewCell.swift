@@ -22,7 +22,7 @@ class TopGamesCollectionViewCell: UICollectionViewCell {
             starIconButton.setBackgroundImage(UIImage(named:"black_star"), for: .normal)
             isBookmarked = true
             
-            DataBaseManager.saveFavorite(gameObject: self.game!)
+            _ = DataBaseManager.saveFavorite(gameObject: self.game!)
         }
         else {
             starIconButton.setBackgroundImage(UIImage(named:"star_border_black"), for: .normal)

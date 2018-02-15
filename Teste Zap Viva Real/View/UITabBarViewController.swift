@@ -25,7 +25,7 @@ class UITabBarViewController: UITabBarController, UITabBarControllerDelegate {
         let tabTwoItem = UITabBarItem(title: "Favoritos", image: UIImage(named: "black_star") , selectedImage: UIImage(named: "black_star"))
         tabTwo.tabBarItem = tabTwoItem
         
-        self.viewControllers = [tabOne,tabTwo]
+        self.viewControllers?.append(tabTwo)
         
         
     }

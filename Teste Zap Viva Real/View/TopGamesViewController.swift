@@ -33,8 +33,21 @@ class TopGamesViewController: UICollectionViewController, UITabBarControllerDele
         configureSearchBar()
         collectionView?.delegate = self
         collectionView?.dataSource = self
+        self.navigationController?.isNavigationBarHidden = false
+        self.navigationController?.navigationBar.isTranslucent = false
+        self.navigationController?.navigationBar.updateConstraints()
+        
 //        self.starIconButton.imageView?.tintColor = UIColor.yellow
-        self.loadView()
+//        self.loadView()
+    }
+    
+    override func viewWillLayoutSubviews() {
+        
+    }
+    
+    override func viewDidLayoutSubviews() {
+        
+        
     }
     
     private func reloadData() {

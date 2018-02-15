@@ -67,6 +67,8 @@ class DataBaseManager: NSObject {
         } catch let error as NSError {
             print("Could not fetch. \(error), \(error.userInfo)")
         }
+        
+        return []
     }
     
     static func removeFavorite() {

@@ -24,8 +24,10 @@ class TopGamesViewController: UICollectionViewController, UITabBarControllerDele
     private let requestService = RequestService()
     private var gameList = [Game]()
     private let searchController = UISearchController(searchResultsController: nil)
+    var refreshControl: UIRefreshControl!
     var filtered:[Game] = []
     var searchActive : Bool = false
+    var offSet: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +38,15 @@ class TopGamesViewController: UICollectionViewController, UITabBarControllerDele
         self.navigationController?.isNavigationBarHidden = false
         self.navigationController?.navigationBar.isTranslucent = false
         self.navigationController?.navigationBar.updateConstraints()
+        
+        
+        
+        
+        refreshControl = UIRefreshControl()
+        refreshControl.attributedTitle = NSAttributedString(string: "Pull to refresh")
+        refreshControl.addTarget(self, action: #selector(reloadData), for: UIControlEvents.valueChanged)
+        collectionView?.addSubview(refreshControl) // not required when using UITableViewController
+        
         
 //        self.starIconButton.imageView?.tintColor = UIColor.yellow
 //        self.loadView()
@@ -50,22 +61,31 @@ class TopGamesViewController: UICollectionViewController, UITabBarControllerDele
         
     }
     
-    private func reloadData() {
+    
+    @objc private func reloadData() {
         let loadingView = UICollectionViewController.displaySpinner(onView: self.view)
-        requestService.getTopGames(completion: { [weak self] result in
-
+        requestService.getTopGames(offSet, completion: { [weak self] result in
+            
             UICollectionViewController.removeSpinner(loadingView)
+            self?.refreshControl.endRefreshing()
             switch result {
             case let .error(error):
                 print("Error: \(error)")
+                self?.showErrorMessage()
                 break
             case let .success(gameList):
-                self?.gameList = gameList
+                self?.gameList.append(contentsOf: gameList)
                 self?.collectionView?.reloadData()
                 print("Sucesso")
                 break
             }
         })
+    }
+    
+    func showErrorMessage() {
+        let alert = UIAlertController(title: "Erro!", message: "Não foi possível realizar a requisição.", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        self.present(alert, animated: true)
     }
     
     private func configureSearchBar() {
@@ -132,7 +152,11 @@ class TopGamesViewController: UICollectionViewController, UITabBarControllerDele
             game = self.filtered[indexPath.item]
         }
         cell.starIconButton.tintColor = UIColor.yellow
-        cell.gameNameLabel.text = "#\(indexPath.item+1) \(game.name!)"
+        
+        if(game.position == 0){
+            game.position = indexPath.item+1
+        }
+        cell.gameNameLabel.text = "#\(game.position!) \(game.name!)"
         cell.gameLogoView.image = game.logoImage
         cell.game = game
         // Configure the cell
@@ -140,6 +164,13 @@ class TopGamesViewController: UICollectionViewController, UITabBarControllerDele
         return cell
     }
     
+    override func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        let lastElement = gameList.count - 1
+        if indexPath.row == lastElement {
+            offSet += 20
+            reloadData()
+        }
+    }
 
     // MARK: UICollectionViewDelegate
 
@@ -198,6 +229,8 @@ extension TopGamesViewController : UICollectionViewDelegateFlowLayout {
                         minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return sectionInsets.left
     }
+    
+    
 }
 
 

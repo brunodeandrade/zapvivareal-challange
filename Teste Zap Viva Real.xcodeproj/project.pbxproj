@@ -30,7 +30,6 @@
 		51A95D182031DF5600C1F8B0 /* Teste_Zap_Viva_RealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A95D172031DF5600C1F8B0 /* Teste_Zap_Viva_RealUITests.swift */; };
 		51A95D292031E27200C1F8B0 /* TopGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A95D282031E27200C1F8B0 /* TopGamesViewController.swift */; };
 		51A95D2A2031E27200C1F8B0 /* TopGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A95D282031E27200C1F8B0 /* TopGamesViewController.swift */; };
-		51BD83182033E3D5008B654D /* UITabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BD83172033E3D5008B654D /* UITabBarViewController.swift */; };
 		51BD831B2034DD2D008B654D /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BD831A2034DD2D008B654D /* DataBaseManager.swift */; };
 		51BD831C2034DD83008B654D /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BD831A2034DD2D008B654D /* DataBaseManager.swift */; };
 		51BD831D2034DDD6008B654D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A95CF42031DF5600C1F8B0 /* AppDelegate.swift */; };
@@ -80,7 +79,6 @@
 		51A95D172031DF5600C1F8B0 /* Teste_Zap_Viva_RealUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teste_Zap_Viva_RealUITests.swift; sourceTree = "<group>"; };
 		51A95D192031DF5600C1F8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51A95D282031E27200C1F8B0 /* TopGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGamesViewController.swift; sourceTree = "<group>"; };
-		51BD83172033E3D5008B654D /* UITabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarViewController.swift; sourceTree = "<group>"; };
 		51BD831A2034DD2D008B654D /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
 		51C6B0A220333EF3000E7919 /* TopGamesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGamesDetailViewController.swift; sourceTree = "<group>"; };
 		554F8A1D73B8B6428AF77BC3 /* Pods-Teste Zap Viva RealTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste Zap Viva RealTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Teste Zap Viva RealTests/Pods-Teste Zap Viva RealTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -201,7 +199,6 @@
 				5137E5CA20322E280071206E /* TopGamesCollectionViewCell.swift */,
 				51C6B0A220333EF3000E7919 /* TopGamesDetailViewController.swift */,
 				5136E4DB20339DFE0025DC91 /* CustomIndicatorView.swift */,
-				51BD83172033E3D5008B654D /* UITabBarViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -548,7 +545,6 @@
 				51C6B0A320333EF3000E7919 /* TopGamesDetailViewController.swift in Sources */,
 				5137E5C12032119D0071206E /* GameApiParser.swift in Sources */,
 				51A95CFD2031DF5600C1F8B0 /* Teste_Zap_Viva_Real.xcdatamodeld in Sources */,
-				51BD83182033E3D5008B654D /* UITabBarViewController.swift in Sources */,
 				5137E5CB20322E280071206E /* TopGamesCollectionViewCell.swift in Sources */,
 				51A95D292031E27200C1F8B0 /* TopGamesViewController.swift in Sources */,
 				5136E4DC20339DFF0025DC91 /* CustomIndicatorView.swift in Sources */,

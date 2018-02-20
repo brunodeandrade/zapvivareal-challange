@@ -17,7 +17,6 @@ class GameApiParser: NSObject {
         
         
         guard let gameDictArray = jsonDict["top"] as? [JSONDictionary] else{return []}
-        var position = 1
         for gameDict in gameDictArray {
             let game = Game()
             game.viewers =  gameDict["viewers"] as? Int
@@ -25,8 +24,7 @@ class GameApiParser: NSObject {
             game.name = infoGameDict["name"] as? String
             guard let logos = infoGameDict["box"] as? JSONDictionary else {return []}
             game.logoImage = RequestService.getImageFromUrl(urlStr: logos["large"] as! String)
-            game.position = position
-            position += 1
+            game.position = 0
             gameArray.append(game)
         }
 

@@ -22,9 +22,9 @@ class RequestService {
         self.session = session
     }
     
-    func getTopGames(completion: @escaping(Result<[Game]>) -> Void ) {
+    func getTopGames(_ offset: Int, completion: @escaping(Result<[Game]>) -> Void ) {
     
-        guard let url = URL(string: "https://api.twitch.tv/kraken/games/top?limit=20") else {return}
+        guard let url = URL(string: "https://api.twitch.tv/kraken/games/top?offset=\(offset)&limit=20") else {return}
         var request = URLRequest(url: url)
         request.setValue("application/vnd.twitchtv.v5+json", forHTTPHeaderField: "Accept")
         request.httpMethod = "GET"

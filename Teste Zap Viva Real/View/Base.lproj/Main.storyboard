@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QRK-iO-mNf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pXX-sk-LPi">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -199,24 +199,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sDe-5F-ZHJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="64.799999999999997" y="124.58770614692655"/>
-        </scene>
-        <!--Tab Bar View Controller-->
-        <scene sceneID="g4X-BU-zJi">
-            <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="QRK-iO-mNf" customClass="UITabBarViewController" customModule="Teste_Zap_Viva_Real" customModuleProvider="target" sceneMemberID="viewController">
-                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
-                    <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vwB-If-NHD">
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="pXX-sk-LPi" kind="relationship" relationship="viewControllers" id="MHk-Vx-ICf"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KoL-b6-PNL" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-737" y="125"/>
         </scene>
     </scenes>
     <resources>
